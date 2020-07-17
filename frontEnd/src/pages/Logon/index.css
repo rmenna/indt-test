@@ -1,0 +1,49 @@
+.logon-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formLogon {
+  width: 400px;
+  height: 270px;
+  max-width: 350px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.formLogon form select {
+  width: 100%;
+  height: 30px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.formLogon button {
+  width: 100%;
+  height: 30px;
+  margin-top: 15px;
+  background: #99ccff;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  color: rgb(19, 17, 17);
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: filter 0.2s;
+}
+
+.formLogon button:hover {
+  filter: brightness(90%);
+}
